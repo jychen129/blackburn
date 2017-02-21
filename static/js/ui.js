@@ -1,4 +1,4 @@
-(function (window, document) {
+(function (window, document, $) {
 
     var layout   = document.getElementById('layout'),
         menu     = document.getElementById('menu'),
@@ -32,4 +32,11 @@
         toggleClass(menuLink, active);
     };
 
-}(this, this.document));
+    $(document).ready(function () {
+      $.each($('table'),function () {
+        $(this).addClass("pure-table pure-table-bordered");
+      });
+    });
+
+
+}(this, this.document, jQuery));
