@@ -1,5 +1,6 @@
 body {
     color: #777;
+    font-family:  'Source Sans Pro','微软雅黑';
 }
 
 .pure-img-responsive {
@@ -39,6 +40,7 @@ This is the parent `<div>` that contains the menu and the content area.
 The content `<div>` is where all your content goes.
 */
 .content {
+    color: #000;
     margin: 0 auto;
     padding: 0 2em;
     max-width: 800px;
@@ -245,4 +247,3 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         left: 150px;
     }
 }
-
