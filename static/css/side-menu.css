@@ -81,6 +81,7 @@ appears on the left side of the page.
 */
 
 #menu {
+    font-family:  'Source Sans Pro','微软雅黑';
     margin-left: -150px; /* "#menu" width */
     width: 150px;
     position: fixed;
